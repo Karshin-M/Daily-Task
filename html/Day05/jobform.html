@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application</title>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>Job Application Form</h1>
+            <hr width="50%">
+        </header>
+
+        <main>
+            <form>
+                <h3>Personal Details</h3>
+                <table cellpadding="10">
+                    <tr>
+                        <td align="right">Full Name:</td>
+                        <td align="left"><input type="text" name="name" placeholder="Enter name" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Email Address:</td>
+                        <td align="left"><input type="email" name="email" placeholder="email@example.com" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Upload Resume:</td>
+                        <td align="left"><input type="file" name="resume"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Experience (Years):</td>
+                        <td align="left">
+                            <input type="number" name="experience" min="0" max="50" placeholder="0">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" valign="top">About Yourself:</td>
+                        <td align="left"><textarea name="bio" rows="5" cols="40"></textarea></td>
+                    </tr>
+                </table>
+                <br>
+                <hr width="50%">
+                <input type="submit" value="Submit Application">
+                <input type="reset" value="Clear Form">
+            </form>
+        </main>
+
+        <footer>
+            <p><small>Form ID: 2026-APP</small></p>
+        </footer>
+    </center>
+</body>
+</html>

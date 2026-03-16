@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body bgcolor="#f4f4f4">
+    <center>
+      <header>
+        <h1>Student Registration</h1>
+      </header>
+
+      <main>
+        <table border="0" cellpadding="10" bgcolor="white" width="450">
+          <tr>
+            <td>
+              <form>
+                <table width="100%">
+                  <tr>
+                    <td><label><b>Name:</b></label></td>
+                    <td><input type="text" placeholder="Full Name" required /></td>
+                  </tr>
+
+                  <tr>
+                    <td><label><b>Email:</b></label></td>
+                    <td><input type="email" placeholder="student@university.edu" /></td>
+                  </tr>
+
+                  <tr>
+                    <td><label><b>Password:</b></label></td>
+                    <td><input type="password" required /></td>
+                  </tr>
+
+                  <tr>
+                    <td><label><b>Age:</b></label></td>
+                    <td><input type="number" min="17" max="50" /></td>
+                  </tr>
+
+                  <tr>
+                    <td><label><b>Date of Birth:</b></label></td>
+                    <td><input type="date" /></td>
+                  </tr>
+
+                  <tr>
+                    <td><label><b>Gender:</b></label></td>
+                    <td>
+                      <input type="radio" name="gender" />Male
+                      <input type="radio" name="gender" />Female
+                      <input type="radio" name="gender" />Other
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top"><label><b>Skills:</b></label></td>
+                    <td>
+                      <input type="checkbox" /> React JS<br />
+                      <input type="checkbox" /> Node.js<br />
+                      <input type="checkbox" /> AWS Cloud<br />
+                      <input type="checkbox" /> UI/UX Design
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label><b>Department:</b></label></td>
+                    <td>
+                      <select>
+                        <option>Artificial Intelligence</option>
+                        <option>Data Science</option>
+                        <option>Cyber Security</option>
+                        <option>Mechanical Engineering</option>
+                        <option>Business Administration</option>
+                        <option>Biotechnology</option>
+                      </select>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" align="center">
+                      <br />
+                      <input type="submit" value="Submit Application" />
+                      &nbsp;
+                      <input type="reset" value="Clear All" />
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </main>
+
+      <footer>
+        <p><i>Admissions 2026</i></p>
+      </footer>
+    </center>
+  </body>
+</html>
